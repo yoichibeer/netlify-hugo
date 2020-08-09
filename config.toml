@@ -1,4 +1,44 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://yoichu7.netlify.app/"
+title = "yoichu7 - blog"
+copyright = "Copyright © 2020, yoichu7"
 theme = "indigo"
+paginate = 100
+isCJKLanguage = true
+languageCode = "ja-jp"
+
+[params]
+  Author = "yoichu7"
+  Description = "説明だよ"
+  Subtitle = "技術ブログ | netlify"
+  Avatar = "images/lily.png"
+  Biography = "ソフトウェア開発しているおじさん。テレビにしゃべりかけて家族からうざがられている類。"
+  ShowBio = false
+  PermalinkText = "🔗"
+
+  # Contact/social-network identifiers for social icons
+  # EmailAddress = "email.address@example.com"
+  # FacebookUser = "FacebookUserName"
+  # FlickrUser = "FlickrUserName"
+  GitHubUser = "yoichibeer"
+  # GitLabUser = "GitLabUserName"
+  # GlitchUser = "GlitchUserName"
+  # KeybaseUser = "KeybaseUserName"
+  # LinkedInUser = "LinkedInUserName"
+  # MediumUser = "MediumUserName"
+  # MicroBlogUser = "MicroBlogUserName"
+  # RedditUser = "RedditUserName"
+  # StackOverflowUser = "StackOverflowUserName"
+  # TumblrUser = "TumblrUserName"
+  # TwitterUser = "TwitterUserName"
+  # InstagramUser = "InstagramUserName"
+
+  # These are parameters used for indieweb identity. You should set these along
+  # with the above email/social network parameters.
+  [params.indieWeb]
+    # EmailAddress = "email.address@example.com"
+    # FlickrUser = "FlickrUserName"
+    GitHubUser = "yoichibeer"
+    # TwitterUser = "TwitterUserName"
+    # MicroBlogUser = "MicroBlogUserName"
+    Country = "Japan"
+    City = "Yokohama"
