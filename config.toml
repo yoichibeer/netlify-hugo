@@ -1,5 +1,5 @@
 baseURL = "https://yoichu7.netlify.app/"
-title = "yoichu7 - blog"
+title = "yoichu7 の技術ブログ"
 copyright = "Copyright © 2020, yoichu7"
 theme = "indigo"
 paginate = 100
